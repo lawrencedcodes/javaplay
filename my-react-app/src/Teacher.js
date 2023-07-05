@@ -17,9 +17,25 @@ function Teacher() {
                 onClick={() => enroll("enroll")}
             >Enroll
             </button>
+            <MyButton/>
             <h3>My enrollment status is {schoolStatus}</h3>
         </div>
     )
 }
+
+export function MyButton() {
+    return <button>Click</button>
+}
+export function LogOut() {
+    return (
+        <>
+            <h1 className = "goodbyeHeader">See you next time</h1>
+            <h3>Whatever</h3>
+            <br />
+            <h4>Secret Out</h4>
+        </>
+    )
+}
+
 
 export default Teacher;
