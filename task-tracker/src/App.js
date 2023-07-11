@@ -1,12 +1,16 @@
 
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Task App</h1>
-    </div>
-    
+    <div className="container">
+      <Header title='Hello' />
+      <Footer />
+    </div> 
   );
 }
+
+
 
 export default App;
