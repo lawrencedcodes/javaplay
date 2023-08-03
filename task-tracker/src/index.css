@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 800px;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
@@ -109,4 +109,10 @@ body {
 footer {
   margin-top: 30px;
   text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+ 
 }
